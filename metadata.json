@@ -1,0 +1,7 @@
+{
+  "name": "StyleSync AI",
+  "description": "Visualize your new hairstyle, get professional growth & styling advice, and find the perfect salon nearby.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

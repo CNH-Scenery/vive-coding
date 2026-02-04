@@ -1,0 +1,26 @@
+{
+  "name": "stylesync-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "vite",
+    "dev:server": "cd server && npm run dev",
+    "build": "vite build",
+    "build:server": "cd server && npm run build",
+    "preview": "vite preview",
+    "install:all": "npm install && cd server && npm install"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.0.1",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
